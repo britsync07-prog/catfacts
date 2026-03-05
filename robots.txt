@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://catfacts.com/sitemap.xml
+Sitemap: https://catfacts.pages.dev/sitemap.xml
