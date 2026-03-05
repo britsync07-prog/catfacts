@@ -1,0 +1,11 @@
+Options -Indexes
+
+RewriteEngine On
+
+# Force trailing slash for directory-style URLs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.+)$ /$1/ [R=301,L]
+
+# Serve custom 404 page
+ErrorDocument 404 /404.html
